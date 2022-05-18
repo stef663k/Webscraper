@@ -34,6 +34,8 @@ class program
         {
             csv.WriteRecords(titles);
         }
+
+        Console.WriteLine("Du har nu kopieret titlerne på hjemmesiden");
     }
 
     public class Row
