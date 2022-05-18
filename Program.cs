@@ -15,9 +15,9 @@ class program
     static void Main(string[] args)
     {
         HtmlWeb web = new HtmlWeb();
-
+        // The website to be scraped
         HtmlDocument doc = web.Load("https://en.wikipedia.org/wiki/Denmark");
-
+        // The html part to be scraped
         var HeaderNames = doc.DocumentNode.SelectNodes("//span[@class='toctext']");
         
 
